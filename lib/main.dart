@@ -39,11 +39,10 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               Card(
-                child: Container(
-                  margin:
-                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  padding: EdgeInsets.fromLTRB(10.0, 0, 0, 0.0),
-                  child: ListTile(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child:ListTile(
+
+                    contentPadding: EdgeInsets.fromLTRB(30.0, 0, 10.0, 0.0),
                     leading: Icon(
                       Icons.phone,
                       color: Colors.teal,
@@ -51,22 +50,25 @@ class MyApp extends StatelessWidget {
                     title: Text(
                       '+91-7407226241',
                       style: TextStyle(
+
                         fontFamily: 'AmaticSC',
-                        fontSize: 21,
+                        fontSize: 30,
                         color: Colors.teal,
                         fontWeight: FontWeight.bold,
-                        letterSpacing: 2.5,
+                        letterSpacing: 3,
                       ),
                     ),
                   ),
                 ),
-              ),
               Card(
-                color: Colors.white,
-                child: Container(
-                  margin:
-                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                  child:ListTile(
+
+                margin:
+                EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+
+                child: ListTile(
+                  contentPadding: EdgeInsets.fromLTRB(30.0, 0, 0, 0.0),
+
+
                     leading: Icon(
                         Icons.email,
                         color: Colors.teal,
@@ -75,15 +77,15 @@ class MyApp extends StatelessWidget {
                         'sahashreyam123@gmail.com',
                         style: TextStyle(
                           fontFamily: 'AmaticSC',
-                          fontSize: 21,
+                          fontSize: 22,
                           fontWeight: FontWeight.bold,
                           color: Colors.teal,
-                          letterSpacing: 2.5,
+                          letterSpacing: 2,
                         ),
                       ),
                   ),
                 ),
-              ),
+
             ],
           ),
 
